@@ -40,7 +40,7 @@ int second(int n, int x) //second part of eq
         int k = 1;
         for (int j = 0; j <= n - 1; j++)
         {
-            k *= (x + j) / (i + j + 1);
+            k *= (x + j) / (i + j + 1) +10;
         }
         sum += k;
     }
